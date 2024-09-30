@@ -1,0 +1,15 @@
+127.0.0.1 - - [29/Sep/2024:08:51:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:08:51:35 +0530] "GET /Guntur_Karam/menu.jsp HTTP/1.1" 200 257
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:08:51:35 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:08:51:39 +0530] "GET /Guntur_Karam/GetVeg HTTP/1.1" 200 3500
+127.0.0.1 - - [29/Sep/2024:17:31:01 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:31:02 +0530] "GET /Guntur_Karam/viewveg.jsp HTTP/1.1" 200 1992
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:31:03 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:31:06 +0530] "GET /Guntur_Karam/GetVeg HTTP/1.1" 200 3499
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:31:06 +0530] "GET /Guntur_Karam/GetVeg HTTP/1.1" 200 3499
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:31:17 +0530] "POST /Guntur_Karam/GetVegOrder HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:34:06 +0530] "POST /Guntur_Karam/GetVegOrder HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:34:11 +0530] "POST /Guntur_Karam/GetVegOrder HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:34:21 +0530] "GET /Guntur_Karam/viewveg.jsp HTTP/1.1" 200 1978
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:34:23 +0530] "GET /Guntur_Karam/GetVeg HTTP/1.1" 200 3485
+0:0:0:0:0:0:0:1 - - [29/Sep/2024:17:34:28 +0530] "GET /Guntur_Karam/GetVegOrder?veg_id=1&cname=Narendra HTTP/1.1" 200 -

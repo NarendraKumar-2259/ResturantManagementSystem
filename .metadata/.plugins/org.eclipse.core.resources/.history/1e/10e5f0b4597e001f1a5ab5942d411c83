@@ -1,0 +1,19 @@
+package com.dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.model.Orders;
+
+public class OrdersDAO {
+	Connection connection = null;
+
+	public void saveOrders(Orders order) throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		connection = ConnectionManager.getConnection();
+		String query = "insert into orders(customer_name, item_id) values(?, ?)";
+		
+		
+	}
+	
+}

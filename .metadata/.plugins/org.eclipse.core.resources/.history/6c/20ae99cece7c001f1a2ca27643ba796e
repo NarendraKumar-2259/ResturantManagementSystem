@@ -1,0 +1,25 @@
+package com.model;
+
+public class Veg {
+	private int veg;
+	private String name;
+	private String price;
+	public int getVeg() {
+		return veg;
+	}
+	public void setVeg(int veg) {
+		this.veg = veg;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+}

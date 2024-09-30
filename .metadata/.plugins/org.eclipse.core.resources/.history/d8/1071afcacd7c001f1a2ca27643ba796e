@@ -1,0 +1,242 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurant Menu</h1>
+    </header>
+
+    <div class="menu-container">
+        <!-- Veg Section -->
+        <div class="menu-section">
+            <h2 class="menu-category">Veg Dishes</h2>
+            <div class="menu-item">
+                <h3>Paneer Butter Masala</h3>
+                <p>Paneer cubes in a creamy butter sauce</p>
+                <span class="price">$8.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Vegetable Biryani</h3>
+                <p>Aromatic basmati rice with mixed vegetables</p>
+                <span class="price">$9.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chana Masala</h3>
+                <p>Chickpeas cooked in a spicy tomato-based sauce</p>
+                <span class="price">$7.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Aloo Gobi</h3>
+                <p>Potatoes and cauliflower cooked with Indian spices</p>
+                <span class="price">$6.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Palak Paneer</h3>
+                <p>Spinach and paneer cooked in a creamy sauce</p>
+                <span class="price">$9.29</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mixed Vegetable Curry</h3>
+                <p>Assorted vegetables in a spiced gravy</p>
+                <span class="price">$8.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Dal Tadka</h3>
+                <p>Lentils tempered with spices and herbs</p>
+                <span class="price">$6.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Bhindi Masala</h3>
+                <p>Okra stir-fried with onions and spices</p>
+                <span class="price">$7.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Paneer Tikka</h3>
+                <p>Grilled paneer marinated in spices</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Malai Kofta</h3>
+                <p>Fried veggie balls in a creamy sauce</p>
+                <span class="price">$9.79</span>
+            </div>
+            <div class="menu-item">
+                <h3>Baingan Bharta</h3>
+                <p>Smoky mashed eggplant cooked with spices</p>
+                <span class="price">$7.79</span>
+            </div>
+            <div class="menu-item">
+                <h3>Aloo Paratha</h3>
+                <p>Stuffed flatbread with spiced potatoes</p>
+                <span class="price">$4.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Kadai Paneer</h3>
+                <p>Paneer cooked with bell peppers and onions</p>
+                <span class="price">$9.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Methi Malai Matar</h3>
+                <p>Fenugreek leaves, green peas in creamy sauce</p>
+                <span class="price">$8.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Shahi Paneer</h3>
+                <p>Paneer in a rich cashew gravy</p>
+                <span class="price">$9.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Vegetable Korma</h3>
+                <p>Vegetables in a rich creamy sauce</p>
+                <span class="price">$8.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Hara Bhara Kebab</h3>
+                <p>Spinach and green peas patties</p>
+                <span class="price">$7.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Vegetable Manchurian</h3>
+                <p>Vegetable dumplings in a tangy sauce</p>
+                <span class="price">$8.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Gobi Manchurian</h3>
+                <p>Crispy cauliflower florets in spicy sauce</p>
+                <span class="price">$7.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Rajma Masala</h3>
+                <p>Kidney beans cooked in a spiced tomato sauce</p>
+                <span class="price">$6.99</span>
+            </div>
+        </div>
+
+        <!-- Non-Veg Section -->
+        <div class="menu-section">
+            <h2 class="menu-category">Non-Veg Dishes</h2>
+            <div class="menu-item">
+                <h3>Chicken Biryani</h3>
+                <p>Flavorful chicken and rice cooked with aromatic spices</p>
+                <span class="price">$11.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Butter Chicken</h3>
+                <p>Succulent chicken in a creamy butter sauce</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Tandoori Chicken</h3>
+                <p>Chicken marinated in yogurt and spices, grilled in tandoor</p>
+                <span class="price">$12.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Tikka Masala</h3>
+                <p>Chicken chunks in a spiced tomato-based sauce</p>
+                <span class="price">$11.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Rogan Josh</h3>
+                <p>Slow-cooked lamb in aromatic spices</p>
+                <span class="price">$13.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Fish Curry</h3>
+                <p>Fish cooked in a spiced curry sauce</p>
+                <span class="price">$12.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Prawn Masala</h3>
+                <p>Prawns in a spiced coconut gravy</p>
+                <span class="price">$14.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken 65</h3>
+                <p>Spicy deep-fried chicken bites</p>
+                <span class="price">$9.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Keema Naan</h3>
+                <p>Naan stuffed with spiced minced meat</p>
+                <span class="price">$8.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Biryani</h3>
+                <p>Spiced basmati rice cooked with tender mutton</p>
+                <span class="price">$13.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Egg Curry</h3>
+                <p>Boiled eggs in a spiced curry sauce</p>
+                <span class="price">$8.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Fish Fry</h3>
+                <p>Crispy fried fish marinated with spices</p>
+                <span class="price">$11.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Korma</h3>
+                <p>Mutton cooked in a creamy cashew-based gravy</p>
+                <span class="price">$13.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Shawarma</h3>
+                <p>Marinated chicken wrapped in pita bread</p>
+                <span class="price">$7.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Fish</h3>
+                <p>Fish fillets grilled with lemon and herbs</p>
+                <span class="price">$14.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Seekh Kebab</h3>
+                <p>Grilled minced meat skewers</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Pepper Fry</h3>
+                <p>Mutton stir-fried with black pepper and spices</p>
+                <span class="price">$12.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Kebab</h3>
+                <p>Grilled chicken pieces marinated in spices</p>
+                <span class="price">$11.49</span>
+            </div>
+            <div class="menu-item">
+                <h3>Crab Curry</h3>
+                <p>Fresh crabs cooked in a spiced curry sauce</p>
+                <span class="price">$15.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Lollipop</h3>
+                <p>Frenched chicken wings deep-fried with spices</p>
+                <span class="price">$8.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Lamb Vindaloo</h3>
+                <p>Spicy lamb curry with a tangy sauce</p>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+    </div>
+
+	
+</body>
+</html>
